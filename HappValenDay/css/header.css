@@ -1,0 +1,113 @@
+/* 这些是公用的样式 */
+.flex{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flexright{
+    justify-content: flex-end;
+}
+.enter{
+    width: 100%
+}
+.entermini{
+    width: 100%;
+    height: 5px;
+}
+.entersmall{
+    width: 100%;
+    height: 10px;
+}
+.entermiddle{
+    width: 100%;
+    height: 20px;
+}
+.enterbig{
+    width: 100%;
+    height: 40px;
+}
+.enterlarge{
+    width: 100%;
+    height: 60px;
+}
+@keyframes ani1{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+.headerimg{
+    width: 350px;
+    height: 350px;
+    border-radius:350px 350px 350px 350px ;
+    box-shadow: 2px 5px 20px #000;
+    animation: ani1 30s infinite linear
+    }
+.musicbtn{
+    text-shadow: 1px 2px 3px rgb(16, 31, 19);
+    font-size: 45px;
+    color:rgb(180, 204, 180);
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;  
+    outline: none;  
+    background-color:transparent;
+    text-align: left;
+
+}
+.site{
+    font-size: 17px;
+    color: rgb(152, 179, 152);
+    line-height: 30px;
+    overflow: hidden;
+    height: 300px;
+}
+.siteesp{
+    font-size: 28px;
+    color:rgb(152, 179, 152);
+    line-height: 40px;
+}
+.sitetitle{
+    color:  rgb(191, 212, 191);
+    font-size: 18px;
+    line-height: 40px;
+}
+.sitebtn{
+    text-shadow: 1px 2px 3px rgb(127, 218, 142);
+    font-size: 16px;
+    color: rgb(9, 39, 9);
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;  
+    outline: none;  
+    background-color:transparent;
+    z-index: 998;
+
+}
+.sitecover{
+    height: 0px;
+    z-index: 8;
+    background-color: black; 
+    display: block; 
+}
+.innersitecover_1{
+    width: 0;
+    height: 150px;
+    z-index: -1;
+}
+.innersitecover_2{
+    height: 150px;
+    width: 250px;
+    background-color: #000;
+    background: -webkit-linear-gradient(top,  transparent 0%,#204814 100%); /* Chrome10+,Safari5.1+ */
+    z-index: 8;
+}
+.headerimg_2{
+    width: 500px;
+    height: 300px;
+    box-shadow: 2px 5px 20px #000;
+
+}
